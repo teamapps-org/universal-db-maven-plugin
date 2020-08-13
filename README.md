@@ -13,7 +13,7 @@ Add this to your pom.xml:
             <plugin>
                 <groupId>org.teamapps</groupId>
                 <artifactId>universal-db-maven-plugin</artifactId>
-                <version>1.1-SNAPSHOT</version>
+                <version>1.2</version>
                 <executions>
                     <execution>
                         <phase>generate-sources</phase>
