@@ -89,7 +89,7 @@ public class TestModelMojo extends AbstractMojo {
 				plugin(
 						groupId("org.apache.maven.plugins"),
 						artifactId("maven-compiler-plugin"),
-						version("3.5.1")
+						version("3.14.1")
 				),
 				goal("compile"),
 				configuration(
@@ -116,7 +116,7 @@ public class TestModelMojo extends AbstractMojo {
 					plugin(
 							groupId("org.codehaus.mojo"),
 							artifactId("exec-maven-plugin"),
-							version("1.3.2")
+							version("3.6.2")
 					),
 					goal("java"),
 					configuration(
